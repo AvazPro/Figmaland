@@ -1,0 +1,46 @@
+.section__3 {
+    padding: 130px 0;
+}
+.section3__content {
+    @include flex__box;
+    align-items: center;
+
+
+    &__title-top-text {
+        @include bold__words;
+        margin-bottom: 15px
+    }
+    &__title {
+        @include section__title;
+        margin-bottom: auto
+    }
+    &__subscribe-text {
+        @include bold__words;
+    }
+    &__text {
+        color: #374754;
+        margin-bottom: 20px;
+    }
+    &__form {
+        margin-top: 50px;
+
+        input {
+            border-radius: 39px;
+            padding: 14px 39px;
+            outline: none;
+            border: 2px solid #E8E8E8;
+            background-color: #F4F4F4;
+        }
+        input:-webkit-autofill {
+            -webkit-box-shadow: inset 0 0 0 30px #F4F4F4 !important;  
+        }
+        button {
+            border-radius: 39px;
+            padding: 14px 39px;
+            border: none;
+            background-color: #2091F9;
+            color: white;
+            font-size: 20px;
+        }
+    }
+}

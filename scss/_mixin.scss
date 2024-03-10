@@ -1,0 +1,25 @@
+@mixin buttons__style(){
+    border-radius: 35px;
+    padding: 10px 36px;
+    background-color: #2091F9;
+    text-transform: capitalize;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+@mixin section__title(){
+    font-size: 48px;
+    color: #252B42;
+    margin: 0;
+}
+@mixin bold__words(){
+    font-weight: bold;
+    font-size: 20px;
+    color: #252B42;
+}
+@mixin flex__box(){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
