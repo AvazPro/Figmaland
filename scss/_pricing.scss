@@ -1,0 +1,100 @@
+.section__6 {
+    background-color: #252B42;
+    
+    &__content {
+        @include flex__box;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+        padding-bottom: 120px;
+
+        &__title {
+            @include section__title;
+            color: white;
+            text-transform: capitalize;
+            margin-bottom: 15px;
+        }
+        &__text {
+            color: white;
+            font-size: 24px;
+            margin-bottom: 35px;
+            width: 32%;
+            text-align: center;
+        }
+        &__boxes {
+            @include flex__box;
+            width: 100%;
+            margin-top: 60px
+        }
+        &__box-title {
+            @include section__title;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0;
+            text-transform: uppercase;
+        }
+        &__box {
+            border-radius: 10px;
+            background-color: white;
+            border: 1px solid #DEDEDE;
+            width: 30%;
+            padding: 40px 0 30px 0;
+            text-align: center;
+            transition: 0.1s all linear;
+           
+            &:hover {
+                background-color: #2091F9;
+                transform: scale(1.1);
+                h2, p, span {
+                    color: white;
+                }
+                a{
+                    background-color: white;
+                    color: #2091F9;
+                }
+            }
+            &__text {
+                font-size: 17px;
+                margin-bottom: 25px
+            }
+        }
+        
+        &__title-bt-text {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        &__price-box {
+            @include flex__box;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        &__charge {
+            font-size: 100px;
+            font-weight: bold;
+            color: #252B42;
+            margin: 0
+        }
+        &__usd {
+            @include flex-direction;
+            align-items: start;
+            margin-left: 10px;
+        }
+        &__usd-symbol {
+            font-size: 30px;
+            color: #252B42;
+        }
+        &__usd-per-month {
+            font-size: 20px;
+            text-transform: capitalize;
+            color: #374754;
+        }
+        &__link {
+            @include buttons__style;
+            padding: 14px 58px;
+        }
+    }
+
+}

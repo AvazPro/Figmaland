@@ -1,0 +1,37 @@
+.section__5 {
+    margin-top: 130px;
+}
+.section5__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    &__title {
+        @include section__title;
+        margin-bottom: 65px;
+    }
+    &__text {
+        margin-top: 50px;
+        font-size: 28px;
+        width: 70%;
+        color: #374754;
+        text-align: center;
+        margin-bottom: 50px;
+    }    
+    .section5__designer__info {
+        display: flex;
+        
+        &__text {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            margin-left: 15px;
+            color: #374754;
+        }
+    }
+    &__btn {
+        @include buttons__style;
+        margin: 50px 0;
+    }
+}

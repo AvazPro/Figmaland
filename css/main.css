@@ -114,6 +114,7 @@ ul {
   font-size: 48px;
   color: #252B42;
   margin: 0;
+  text-transform: capitalize;
   text-align: center;
   margin-bottom: 15px;
 }
@@ -173,6 +174,7 @@ ul {
   font-size: 48px;
   color: #252B42;
   margin: 0;
+  text-transform: capitalize;
 }
 .section2__link {
   border-radius: 35px;
@@ -214,6 +216,7 @@ ul {
   font-size: 48px;
   color: #252B42;
   margin: 0;
+  text-transform: capitalize;
   margin-bottom: auto;
 }
 .section3__content__subscribe-text {
@@ -245,6 +248,7 @@ ul {
   background-color: #2091F9;
   color: white;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .section4__content {
@@ -254,6 +258,7 @@ ul {
   font-size: 48px;
   color: #252B42;
   margin: 0;
+  text-transform: capitalize;
   margin-bottom: 15px;
 }
 .section4__content__title-bt-text {
@@ -283,4 +288,164 @@ ul {
   border: none;
   color: white;
   font-size: 20px;
+}
+
+.section__5 {
+  margin-top: 130px;
+}
+
+.section5__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section5__content__title {
+  font-size: 48px;
+  color: #252B42;
+  margin: 0;
+  text-transform: capitalize;
+  margin-bottom: 65px;
+}
+.section5__content__text {
+  margin-top: 50px;
+  font-size: 28px;
+  width: 70%;
+  color: #374754;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section5__content .section5__designer__info {
+  display: flex;
+}
+.section5__content .section5__designer__info__text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 15px;
+  color: #374754;
+}
+.section5__content__btn {
+  border-radius: 35px;
+  padding: 10px 36px;
+  background-color: #2091F9;
+  text-transform: capitalize;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 50px 0;
+}
+
+.section__6 {
+  background-color: #252B42;
+}
+.section__6__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.section__6__content__title {
+  font-size: 48px;
+  color: #252B42;
+  margin: 0;
+  text-transform: capitalize;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.section__6__content__text {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 35px;
+  width: 32%;
+  text-align: center;
+}
+.section__6__content__boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 60px;
+}
+.section__6__content__box-title {
+  font-size: 48px;
+  color: #252B42;
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+}
+.section__6__content__box {
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #DEDEDE;
+  width: 30%;
+  padding: 40px 0 30px 0;
+  text-align: center;
+  transition: 0.1s all linear;
+}
+.section__6__content__box:hover {
+  background-color: #2091F9;
+  transform: scale(1.1);
+}
+.section__6__content__box:hover h2, .section__6__content__box:hover p, .section__6__content__box:hover span {
+  color: white;
+}
+.section__6__content__box:hover a {
+  background-color: white;
+  color: #2091F9;
+}
+.section__6__content__box__text {
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+.section__6__content__title-bt-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.section__6__content__price-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.section__6__content__charge {
+  font-size: 100px;
+  font-weight: bold;
+  color: #252B42;
+  margin: 0;
+}
+.section__6__content__usd {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 10px;
+}
+.section__6__content__usd-symbol {
+  font-size: 30px;
+  color: #252B42;
+}
+.section__6__content__usd-per-month {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #374754;
+}
+.section__6__content__link {
+  border-radius: 35px;
+  padding: 10px 36px;
+  background-color: #2091F9;
+  text-transform: capitalize;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 14px 58px;
 }/*# sourceMappingURL=main.css.map */
