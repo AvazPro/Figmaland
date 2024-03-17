@@ -11,6 +11,7 @@
     <div class="main">
         <div class="header">
             <nav class="nav">
+                <a href="#" class="brand__logo"><img src="images/header-images/center.png" alt=""></a>
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a href="#" class="nav__link">home</a>
@@ -28,7 +29,7 @@
                         <a href="#" class="nav__link">contact</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link"><img src="images/header-images/center.png" alt=""></a>
+                        <a href="#" class="nav__link brand__name"><img src="images/header-images/center.png" alt=""></a>
                     </li>
                     <li class="nav__item2">
                         <ul class="nav__list__social">
@@ -50,6 +51,11 @@
                         </ul>
                     </li>
                 </ul>
+                <button class="btn">
+                    <span class="stick stick-top"></span>
+                    <span class="stick stick-middle"></span>
+                    <span class="stick stick-bottom"></span>
+                </button>
             </nav>
             <h1 class="header__title">
                 <div>The best products </div>
@@ -114,6 +120,7 @@
                 </div>
                 <div class="section__img__box">
                     <img src="images/section/screen.png" alt="screen" class="section__img">
+                    <img src="images/section/screen__mobile.png" alt="screen" class="section__img2">
                     <a href="#" class="section__img__box__play-link">
                         <img src="images/section/play button.png" alt="play" class="section__img__box__play-btn">
                     </a>
@@ -157,8 +164,10 @@
                             <p class="section3__content__text">
                                 Available exclusivery on Figmaland
                             </p>
-                            <input type="email" name="email" class="section3__content__email-inp" placeholder="Your Email">
-                            <button class="section3__content__subscribe-btn">Subscribe</button>
+                            <div class="section3__content__box">
+                                <input type="email" name="email" class="section3__content__email-inp" placeholder="Your Email">
+                                <button class="section3__content__subscribe-btn">Subscribe</button>
+                                </div>
                         </form>
                     </div>
                 </div>
@@ -422,18 +431,20 @@
                 </li>
 
                 <li class="footer__item">
-                    <ul class="footer__list2">
-                        <li class="footer__item2">
-                            <span class="footer__item2__icon">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </span>7480 Mockingbird Hill undefined 
-                        </li>
-                        <li class="footer__item2">
-                            <span class="footer__item2__icon">
-                                <i class="fa-solid fa-mobile-screen"></i>
-                            </span><a href="tel:+998942096905">(239) 555-0108</a>
-                        </li>
-                        <li class="footer__item2">
+                    <ul class="footer__list2 footer__list2__last-box">
+                        <div class="footer__item2__address-box">
+                            <li class="footer__item2">
+                                <span class="footer__item2__icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>7480 Mockingbird Hill undefined 
+                            </li>
+                            <li class="footer__item2">
+                                <span class="footer__item2__icon">
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                </span><a href="tel:+998942096905">(239) 555-0108</a>
+                            </li>
+                        </div>
+                        <li class="footer__item2 footer__item2__last">
                             <a href="#" class="footer__social__icon">
                                 <i class="fa-brands fa-twitter"></i>
                             </a>
@@ -449,5 +460,7 @@
             </ul>
         </footer>
     </div>
+
+    <script src="menu.js"></script>
 </body>
 </html>

@@ -40,6 +40,7 @@
     }
     &__img__box {
         position: relative;
+        z-index: -1;
 
         &__play-btn {
             position: absolute;

@@ -5,9 +5,11 @@
     justify-content: center;
 
     &__list {
-        display: flex;
-        justify-content: space-between;
+        @include flex__box;
         width: 100%;
+    }
+    &__item {
+        width: 22%;
     }
     &__category__of__link {
         @include bold__words;
@@ -36,4 +38,7 @@
         margin-right: 15px;
     }
    
+}
+.footer__item2__last {
+    margin-top: 15px;
 }
